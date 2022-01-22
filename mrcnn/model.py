@@ -21,6 +21,7 @@ import keras
 import keras.backend as K
 import keras.layers as KL
 import keras.engine.topology as KE
+from tensorflow.keras.engine.topology import Layer, InputSpec
 import keras.models as KM
 
 from mrcnn import utils
